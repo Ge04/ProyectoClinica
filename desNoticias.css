@@ -1,0 +1,123 @@
+.header-main{
+    background-color: #121212;
+  }
+
+  .header-main {
+    background-color: rgba(18, 18, 18, 0.8);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar {
+    padding: 1rem 0;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: 700;
+   
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+.navbar-brand i {
+    font-size: 1.8rem;
+}
+
+.nav-link {
+   
+    padding: 0.5rem 1rem !important;
+    transition: color 0.3s ease;
+    text-shadow: 0 0 8px rgba(200, 162, 200, 0.4);
+}
+
+.nav-link:hover {
+    color: var(--accent-color) !important;
+    text-shadow: 0 0 12px rgba(255, 255, 255, 0.6);
+}
+.titulo{
+   padding-top: 80px;
+}
+.titulo h1{
+    
+    height: 100px;
+    color: rgb(42, 46, 50);
+    display: flex;
+    align-items: center;
+    justify-content: justify;
+    background: linear-gradient(to right, rgb(179, 179, 179), rgb(179, 179, 180));
+    text-align: justify;
+    font-size: 40px;
+    padding: 10px;
+    color: rgb(24, 140, 179);
+    font-weight: bold;
+}
+.container-fluid{
+    margin-top: 20px;
+    width: 100%;
+    background-color: aliceblue;
+}
+.contedor-contexto h6{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(95, 95, 95);
+    padding: 20px;
+
+}
+.contedor-contexto img{
+    width: 100%;
+    height: 400px;
+    padding: 20px;
+   
+}
+.contenedor-desarrollo{
+    width: 100%;
+    height: auto;
+    text-align: justify;
+    font-size: 20px;
+    padding: 20px;
+    color: rgb(118, 116, 116);
+}
+.contenedor-desarrollo h2{
+    text-align: center;
+    font-weight: bold;
+    color: rgb(4, 89, 132);
+}
+.footer{
+    background-color: #121212;
+    margin-top: 20px;
+}
+.row{
+    padding: 20px;
+}
+.footer-col h3{
+    color: rgb(19, 113, 172);
+    
+}
+.footer-col h4{
+    border-bottom: 5px solid rgb(19, 113, 172);
+    width: 60px;
+    
+}
+.footer-col p i{
+    color: rgb(19, 113, 172);
+}
+.footer-col p{
+    color: rgb(135, 135, 136);
+}
+.footer-bottom{
+    text-align: center;
+}
+.footer-bottom p{
+    color: rgb(135, 135, 136) ;
+    padding: 10px;
+}
+.footer-bottom hr{
+    
+    color: aliceblue;
+}

@@ -1,0 +1,266 @@
+ 
+ .header-main{
+  background-color: #121212;
+}
+
+.header-main {
+  background-color: rgba(18, 18, 18, 0.8);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar {
+  padding: 1rem 0;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: 700;
+ 
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+.navbar-brand i {
+  font-size: 1.8rem;
+}
+
+.nav-link {
+ 
+  padding: 0.5rem 1rem !important;
+  transition: color 0.3s ease;
+  text-shadow: 0 0 8px rgba(200, 162, 200, 0.4);
+}
+
+.nav-link:hover {
+  color: var(--accent-color) !important;
+  text-shadow: 0 0 12px rgba(255, 255, 255, 0.6);
+}
+
+ /* Estilos globales */
+ 
+
+  .header {
+    height: 300px;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../imagenes/comprimidos.webp);
+    background-color: #4CAF50;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .header h1 {
+    padding-top: 80px;
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  .buscador{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 30px;
+  }
+  .buscador form{
+  margin-left: 50px;
+  }
+
+  .nav {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+  }
+
+  .nav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    margin: 0 10px;
+    text-transform: uppercase;
+  }
+
+  .nav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .container {
+    padding: 20px;
+  }
+
+  h2 {
+    color: #333;
+  }
+
+  /* Estilos para la tabla de medicamentos */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+
+  table, th, td {
+    border: 1px solid #fdfbfb;
+  }
+
+  th, td {
+    border-collapse: collapse;
+    padding: 12px;
+    text-align: left;
+  }
+
+ tr th {
+    background-color: #121212;
+    color: white;
+  }
+
+  
+  .temporizador{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 350px;
+    background-color: rgb(27, 117, 191);
+
+}
+.temporizador img{
+    width: 400px;
+    height: 250px;
+}
+.temporizador h3{
+    font-weight: 800;
+    color: aliceblue;
+}
+.temporizador button{
+    
+    width: 200px;
+    border-radius: 5px;
+    background-color: rgb(26, 110, 179);
+    color: aliceblue;
+}
+
+.tarjetas{
+  background: linear-gradient(45deg, rgba(62, 152, 208, 0.5), rgba(29, 159, 162, 0.5));
+  width: 100%;
+  height: 200px;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 30px;
+}
+.subtitulos{
+  text-align: center;
+}
+.subtitulos h3{
+  font-weight: 600;
+  color: blue;
+}
+.subtitulos p{
+  font-weight: 600;
+}
+.medical{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.medical-suntitulo{
+  border: 1px solid black;
+  text-align: center;
+}
+.tarjeta{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+}
+.tarjeta .card{
+  padding: 10px;
+  gap: 2px;
+}
+.tarjeta .iconos{
+  text-align: center;
+  color: rgb(230, 171, 8);
+}
+.tarjeta button{
+  font-weight: 500;
+}
+
+.footer{
+  background-color: #121212;
+  margin-top: 20px;
+}
+.row{
+  padding: 20px;
+}
+.footer-col h3{
+  color: rgb(19, 113, 172);
+  
+}
+.footer-col h4{
+  border-bottom: 5px solid rgb(19, 113, 172);
+  width: 60px;
+  
+}
+.footer-col p i{
+  color: rgb(19, 113, 172);
+}
+.footer-col p{
+  color: rgb(135, 135, 136);
+}
+.footer-bottom{
+  text-align: center;
+}
+.footer-bottom p{
+  color: rgb(135, 135, 136) ;
+  padding: 10px;
+}
+.footer-bottom hr{
+  
+  color: aliceblue;
+}
+
+
+
+
+
+/*ESTILOS PARA MOBILES*/
+
+/*MAIN*/
+
+ 
+
+
+
+
+
+
+@media (min-width: 268px) and (max-width: 768px){
+  .temporizador{
+    height: auto;
+    text-align: center;
+  }
+  .temporizador img{
+    width: 100%;
+  }
+  .buscador{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,212 @@
+.header-main{
+    background-color: #121212;
+  }
+
+  .header-main {
+    background-color: rgba(18, 18, 18, 0.8);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar {
+    padding: 1rem 0;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: 700;
+   
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+.navbar-brand i {
+    font-size: 1.8rem;
+}
+
+.nav-link {
+   
+    padding: 0.5rem 1rem !important;
+    transition: color 0.3s ease;
+    text-shadow: 0 0 8px rgba(200, 162, 200, 0.4);
+}
+
+.nav-link:hover {
+    color: var(--accent-color) !important;
+    text-shadow: 0 0 12px rgba(255, 255, 255, 0.6);
+}
+
+  
+  
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Questrial', sans-serif;
+}
+.logo{
+    background-color: aqua;
+    width: 50x;
+    height: 50px;
+    display: flex;
+}
+.logo i{
+    font-size: 30px;
+}
+.logo h3{
+    color: rgb(5, 112, 227);
+}
+.general{
+    width: 100%;
+    height: 100vh;
+    border-radius: 100px 100px 100px 100px;
+}
+.contenido-imagen{
+    background-image: url(../imagenes/2.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    border-radius: 0 0 100% 100%;
+    border: 20px solid aqua;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    overflow: hidden;
+}
+img{
+    border-radius: 50%;
+    border: 3px solid aqua;
+    width: 50px;
+    height:50px ;
+}
+.contenido_general .circulos{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    position: absolute;
+    top: 500px;
+    
+    justify-content: space-between;
+   
+}
+.contenido_general .circulos .circulo1{
+    width: 100px;
+    height: 110px;
+    margin-bottom: 10px;
+    background-color: aqua;
+    border: 3px solid white;
+    border-radius: 50%;
+    
+}
+
+.contenido_general .circulos .circulo2{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    border: 3px solid white;
+    border-radius: 50%;
+    
+}
+.circulo1 h2{
+    font-size: 20px;
+    padding: 15px;
+    color: aliceblue;
+    text-align: center;
+}
+.circulo2 h2{
+    font-size: 25px;
+    padding: 50px;
+    color: aliceblue;
+    text-align: center;
+}
+.subtitulos{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.subtitulos h1,h4{
+    font-size: 50px;
+    text-transform: uppercase;
+    color: rgb(33, 41, 49);
+}
+.subtitulos h4{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: rgb(33, 41, 49);
+}
+.tarjetas{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.tarjetas .card{
+    width: 100px;
+    height: 100%;
+    box-shadow: rgb(10, 215, 160);
+    
+    
+}
+.tarjetas .card img{
+    width: 100%;
+    height: 400px;
+    border-radius:0 0 50% 50%;
+    border: 2px solid white;
+}
+.card-body h5{
+    text-align: center;
+}
+.card-body .btn{
+margin-left: 50px;
+}
+.subtitulo-lorem{
+    height: 50px;
+    background-color: aqua;
+    display: block;
+    text-align: center;
+    color: aliceblue;
+    margin-top: 200px;
+}
+
+
+
+
+@media   (max-width:480px){
+    .general{
+        width: 100%;
+    }
+    .contenido-imagen{
+        width: 500px;
+    }
+    .contenido_general .circulos{
+        width: 500px;
+        position: absolute;
+        top: 450px;
+    }
+    .subtitulos{
+        margin-top: 20px;
+    }
+    .tarjetas{
+        width: 450px;
+    }
+    .card-body .btn{
+        margin-left: 100px;
+    }
+    .subtitulo-lorem{
+        width: 100%;
+        position: absolute;
+        top:2990px;
+    }
+    
+}
+
